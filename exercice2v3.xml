@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#80E30D"
+        android:text="TravelApp"
+        android:textColor="#FAF5F5"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_below="@id/textView26"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/natur" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginRight="41dp"
+        android:layout_toLeftOf="@id/textView27"
+        android:text="Overview"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@id/textView27"
+        android:text="Review"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Gallery"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginRight="-66dp"
+        android:numStars="4"
+        android:rating="4" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView29"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="4dp"
+        android:text="4,4 (2532 views)"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar3"
+        android:layout_centerInParent="true"
+        android:text="WHY GO NOW ? Csb thnoughs a see of clouds"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView32"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:text="@string/text" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="$520 (5 days)"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#80E30D"
+        android:text="BOOK NOW" />
+</RelativeLayout>
